@@ -23,11 +23,44 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="app.js" />
     <Content Include="index.html" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\controls\desktop.js" />
+    <Content Include="Scripts\controls\mobile.js" />
+    <Content Include="Scripts\effects\Sounds.js" />
+    <Content Include="Scripts\effects\sprites.js" />
+    <Content Include="Scripts\errors\notImplementedError.js" />
+    <Content Include="Scripts\errors\undefinedCollisionTypeError.js" />
+    <Content Include="Scripts\game.js" />
+    <Content Include="Scripts\gui.js" />
+    <Content Include="Scripts\Levels\level1.js" />
+    <Content Include="Scripts\Levels\level2.js" />
+    <Content Include="Scripts\objects\base\baseObject.js" />
+    <Content Include="Scripts\objects\base\circleGameObject.js" />
+    <Content Include="Scripts\objects\base\gameObject.js" />
+    <Content Include="Scripts\objects\base\pointGameObject.js" />
+    <Content Include="Scripts\objects\base\rectangleGameObject.js" />
+    <Content Include="Scripts\objects\gameConstants.js" />
+    <Content Include="Scripts\objects\game\brick.js" />
+    <Content Include="Scripts\objects\game\bullet.js" />
+    <Content Include="Scripts\objects\game\node.js" />
+    <Content Include="Scripts\objects\game\player.js" />
+    <Content Include="Scripts\objects\game\powerups\ammoPowerup.js" />
+    <Content Include="Scripts\objects\game\powerups\basePowerup.js" />
+    <Content Include="Scripts\objects\game\powerups\hidePowerup.js" />
+    <Content Include="Scripts\objects\game\powerups\speedPowerup.js" />
+    <Content Include="Scripts\objects\game\spider.js" />
+    <Content Include="Scripts\objects\objectTypes.js" />
+    <Content Include="Scripts\objects\shapeTypes.js" />
+    <Content Include="Scripts\tools\audio.js" />
+    <Content Include="Scripts\tools\grid.js" />
+    <Content Include="Scripts\tools\Math2D.js" />
+    <Content Include="Scripts\tools\raytracing.js" />
+    <Content Include="Scripts\tools\sfxr.js" />
+    <Content Include="Scripts\tools\utils.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
