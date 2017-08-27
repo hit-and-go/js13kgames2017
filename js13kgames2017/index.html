@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+	<title>SpyNet</title>
+	<style>
+		body {
+			background: #000000;
+			margin: 0 0 0 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="canvas-container">
+		<!--<canvas id="backgroundCanvas" style="position:absolute; z-index:1;"></canvas>-->
+		<canvas id="foregroundCanvas" style="position:absolute; z-index:2;"></canvas>
+		<!--<canvas id="guiCanvas" style="position:absolute; z-index:3;"></canvas>-->
+	</div>
+	<!-- FOR REALESE -->
+	<!--<script src="app.js"></script>-->
+
+	<!-- FOR DEBUG -->
+	<script src="Scripts/controls/desktop.js"></script>
+	<script src="Scripts/controls/mobile.js"></script>
+
+	<script src="Scripts/effects/sounds.js"></script>
+	<script src="Scripts/effects/sprites.js"></script>
+
+	<script src="Scripts/errors/notImplementedError.js"></script>
+	<script src="Scripts/errors/undefinedCollisionTypeError.js"></script>
+
+	<script src="Scripts/levels/level1.js"></script>
+	<script src="Scripts/levels/level2.js"></script>
+
+	<script src="Scripts/objects/base/baseObject.js"></script>
+	<script src="Scripts/objects/base/gameObject.js"></script>
+	<script src="Scripts/objects/base/circleGameObject.js"></script>
+	<script src="Scripts/objects/base/pointGameObject.js"></script>
+	<script src="Scripts/objects/base/rectangleGameObject.js"></script>
+
+	<script src="Scripts/objects/game/powerups/basePowerup.js"></script>
+	<script src="Scripts/objects/game/powerups/ammoPowerup.js"></script>
+	<script src="Scripts/objects/game/powerups/hidePowerup.js"></script>
+	<script src="Scripts/objects/game/powerups/speedPowerup.js"></script>
+
+	<script src="Scripts/objects/game/brick.js"></script>
+	<script src="Scripts/objects/game/bullet.js"></script>
+	<script src="Scripts/objects/game/node.js"></script>
+	<script src="Scripts/objects/game/player.js"></script>
+	<script src="Scripts/objects/game/spider.js"></script>
+
+	<script src="Scripts/objects/gameConstants.js"></script>
+	<script src="Scripts/objects/objectTypes.js"></script>
+	<script src="Scripts/objects/shapeTypes.js"></script>
+
+	<script src="Scripts/tools/audio.js"></script>
+	<script src="Scripts/tools/grid.js"></script>
+	<script src="Scripts/tools/math2D.js"></script>
+	<script src="Scripts/tools/raytracing.js"></script>
+	<script src="Scripts/tools/sfxr.js"></script>
+	<script src="Scripts/tools/utils.js"></script>
+
+	<script src="Scripts/app.js"></script>
+	<script src="Scripts/game.js"></script>
+	<script src="Scripts/gui.js"></script>
+</body>
+</html>
