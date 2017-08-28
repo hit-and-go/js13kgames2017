@@ -1,0 +1,23 @@
+﻿{
+	"compilerOptions": {
+		"target": "ES5",
+		"allowJs": true,
+		"module": "system",
+		"sourceMap": true,
+		"removeComments": false,
+		"declaration": false,
+		"noEmitOnError": true,
+		"alwaysStrict": true,
+		"noImplicitAny": false,
+		"noImplicitReturns": false,
+		"noImplicitThis": false,
+		"suppressImplicitAnyIndexErrors": true
+	},
+	"include": [
+		"**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+}
